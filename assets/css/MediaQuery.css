@@ -1,0 +1,209 @@
+/* For phones screens */
+
+@media screen and   (max-width: 576px) {
+    
+.header{
+    background-image: url('../img/Section1Background.jpg');
+    background-size: cover;
+    text-align: center;
+    background-position: 660px -0px;
+}
+
+.navbar .logo{
+    display: block;
+    width: 150px;
+}
+
+.navbar .nav{
+    width: 100%;
+    padding-left: 0px;
+    margin-left: 10px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+
+.header .header-content img{
+    width: 350px;
+    height: 220px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.header-content h1{
+    font-size: 34px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+.header .header-content p{
+    padding-top: 15px;
+    line-height: normal;    
+    font-size: 16px;
+}
+
+.header-content button{
+    padding: 12px 20px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.header-content .Learn-more{
+    font-size: 14px;
+}
+
+.header-content .Book-a-visit{
+    font-size: 14px;
+}
+
+/* Start of Section 2 Media Query */
+
+.section2 .shif-img{
+    display: block;
+    width: 100%;    
+    height: 500px;
+    padding-bottom: 600px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.section2 .shif-img img{
+    width: 100%;
+}
+
+.section2 .about-restaurant{
+    display: block;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.section2 .about-restaurant h2{
+    font-size: 35px;
+}
+
+.section2 .about-restaurant p{
+    padding-bottom: 40px;
+}
+
+.section2 .about-restaurant ul{
+    padding-bottom: 100px;
+}
+
+/* End of Section 2 Media Query */
+
+/* Start of Section 3 Media Query */
+
+.section3 .Reviewers{
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section3 .Reviewers p{
+    line-height: 30px;
+}
+
+.section3 .Reviewers span{
+font-size: 20px;
+}
+
+.section3 .Reviewers-img{
+width: 100%;
+}
+
+/* End of Section 3 Media Query */
+
+/* Start of Section 4 Media Query */
+
+.section4{
+    background-position: 0px -0px;
+}
+
+/* End of Section 4 Media Query */
+
+/* Start of Section 5 Media Query */
+
+.section5 .Meals{
+    padding-left: 0px;
+    padding-left: 0ox;
+}
+
+.section5 .Meals .Meal{
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section5 .full-menu .View-Full-Menu{
+    margin-left: 120px;
+}
+
+/* End of Section 5 Media Query */
+
+
+/* Start of Section 6 Media Query */
+
+.section6 .Where-are-we{
+    display: block;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+.section6 .map{
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* End of Section 6 Media Query */
+
+/* Start of Section 7 Media Query */
+
+.section7{
+    padding-left: 15px;
+    padding-top: 60px;
+    height: auto;
+}
+
+.section7 h3{
+    padding-bottom: 20px;
+}
+
+.section7 .about-us{
+    display: block;
+    width: 100%;
+    padding-right: 0px;
+}
+
+.section7 .useful-links{
+    padding-top: 60px;
+    display: block;
+    width: 100%;
+    padding-right: 0px;
+}
+
+.section7 .opening-hours{
+    padding-top: 60px;
+    display: block;
+    width: 100%;
+    padding-right: 0px;
+}
+
+.section7 .contact-details{
+    padding-top: 60px;
+    display: block;
+    width: 100%;
+    padding-right: 0px;
+}
+
+.section7 .contact-details ul li{
+    padding-bottom: 20px;
+}
+
+/* End of Section 7 Media Query */
+
+}

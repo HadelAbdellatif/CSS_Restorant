@@ -1,0 +1,625 @@
+/* Public Style*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans:wght@300&family=Dancing+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.clearfix{
+    clear: both;
+}
+
+/* Start Header Style */
+
+.header{
+    background-image: url('../img/Section1Background.jpg');
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.logo{
+    margin-left: 7%;
+    float: left;
+    width:10%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.navbar{
+    padding-top: 18px;
+}
+
+.navbar a{
+    color: #ffffff;
+}
+
+.nav{
+    float: left;
+    width: 40%;
+    margin-left: 38%;
+    padding-top: 15px;
+}
+
+
+.nav ul li{
+    display: inline-block;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.header-content{
+    margin-top: 25px;
+}
+
+.header img{
+    padding-bottom: 15px;
+}
+
+.header-content h1{
+    font-size: 76px;
+    font-family: 'Alegreya', serif;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 91px;
+    padding-bottom: 15px;
+}
+
+.header-content p{
+    font-family: 'Dancing Script', cursive;  
+    font-weight: 400;
+    font-Size: 40px;
+    line-height: 74px;
+    Color: rgba(255, 255, 255, 0.92);
+    padding-bottom: 34px;
+}
+
+.header-content button{
+    padding: 15px 30px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.header-content .Learn-more{
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: #c1ab84;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    margin-right: 5px;
+}
+
+
+.Learn-more:hover{
+    background-color: white;
+    color: black;
+}   
+
+.header-content .Book-a-visit{
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: white;
+    color: #222222;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100vh;
+}
+
+.settings{
+    width: 40px;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 28%;
+    right: 0%;
+}
+
+.settings ul{
+    padding-top: 15px;
+}
+
+.settings ul li{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 0px 10px;
+}
+
+.go-to-header a i{
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 100%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+/* End Header Style */
+
+/* Start Of section 2 CSS*/
+
+.section2{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+}
+
+.section2 .shif-img{
+    padding-top: 10%;
+    padding-left: 5%;
+    float: left;
+    width: 30%;
+}
+
+
+.section2 .about-restaurant{
+    float: left;
+    width: 70%;
+    padding-top: 20%;
+    padding-left: 25%;
+    padding-right: 10px;
+}
+
+.section2 h2{
+    font-family: 'Alegreya', serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #253048;
+    padding-bottom: 10px;
+}
+
+.section2 h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 39px;
+    color: #c1ab84;
+    padding-bottom: 10px;
+
+}
+
+.section2 p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    line-height: 33px;
+    color: #686868;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.section2 .about-restaurant ul li{
+    display: block;
+}
+
+.section2 .about-restaurant ul li i{
+    font-size: 28px;
+    border-radius: 100%;
+    height: 52px;
+    width: 52px;
+    padding-top: 12px;
+    text-align: center;
+    background-color: #c1ab84;
+    margin-bottom: 18px;
+}
+
+.section2 span{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #686868;
+    padding-left: 15px;
+}
+
+/* End Of section 2 CSS*/
+
+
+/* Start Of section 3 CSS*/
+
+.section3{
+    background-color: #f8f8f8;
+    margin-top: 15%;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.section3 .Reviewers{
+    float: left;
+    width: 50%;
+    padding-left: 100px;
+
+}
+
+.section3 h2{
+    font-family: 'Alegreya', serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #253048;
+    padding-bottom: 10px;
+    padding-top: 100px;
+}
+
+.section3 h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 39px;
+    color: #c1ab84;
+    padding-bottom: 10px;
+
+}
+
+.section3 p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    line-height: 33px;
+    color: #686868;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    font-size: 18px;
+
+}
+
+.section3 .Reviewers ul li i{
+    padding-right: 10px;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.section3 span{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #686868;
+}
+
+.section3 .Reviewers-img{
+    float: left;
+    width: 50%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.section3 .Reviewers-img img{
+    width: 90%;
+    height: 60%;
+    margin: auto;
+}
+
+
+/* End Of section 3 CSS*/
+
+/* Start Of section 4 CSS*/
+
+.section4{
+    padding-top: 40px;
+    width: 100%;
+    height: 500px;
+    background-image:url(http://www.engage.veented.com/restaurant/wp-content/uploads/sites/3/2017/04/shutterstock_280369721.jpg?id=609) ;
+    background-size: cover;
+    background-position: 30px -160px;
+}
+
+/* End Of section 4 CSS*/
+
+/* Start Of section 5 CSS*/
+
+.section5{
+    margin: auto;
+}
+
+.section5 .flag-dishes{
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 40px;
+}
+
+.section5 .flag-dishes h2{
+    font-family: 'Alegreya', serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #253048;
+    padding-bottom: 20px;
+}
+
+.section5 .flag-dishes h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 39px;
+    color: #c1ab84;
+}
+
+.section5 .Meals{
+    padding-left: 100px;
+    margin-bottom: 15px;
+}
+
+.section5 .Meals .Meal{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.section5 .Meals img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.section5 .Meals h4{
+    font-family: 'Alegreya', serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #253048;
+    padding-bottom: 20px;
+}
+
+.section5 .Meals p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #686868;
+    padding-bottom: 80px;
+
+}
+
+.section5 .full-menu .View-Full-Menu{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    background-color: #c1ab84;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px 28px;
+    margin-left: 45%;
+}
+
+/* End Of section 5 CSS*/
+
+/* Start Of section 6 CSS*/
+
+.section6{
+    margin-top: 6%;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.section6 .Where-are-we{
+    float: left;
+    width: 50%;
+    padding-left: 100px;
+
+}
+
+.section6 h2{
+    font-family: 'Alegreya', serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #253048;
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+
+.section6 p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    line-height: 33px;
+    color: #686868;
+    padding-bottom: 20px;
+    font-size: 18px;
+
+}
+
+.section6 .Where-are-we ul li i{
+    font-size: 20px;
+    border-radius: 100%;
+    height: 42px;
+    width: 42px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #c1ab84;
+    margin-bottom: 18px;
+}
+
+.section6 .Where-are-we ul li span a{
+    color: #686868;
+}
+
+.section6 span{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #686868;
+    padding-left: 10px;
+}
+
+.section6 .map{
+    float: left;
+    width: 50%;
+    height: 650px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+.section6 .map iframe{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+/* End Of section 6 CSS */
+
+/* Start of section 7 CSS */
+
+.section7{
+    background-color: #403d38;
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-top: 60px;
+    width: 100%;
+    height: 500px;
+}
+
+.section7 h3{
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.section7 p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #969696;
+    padding-bottom:15px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.section7 ul li i{
+    padding-bottom: 5px;
+}
+
+.section7 span{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #969696;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+/*
+.section7 .contact-details{
+    background-image: url('http://www.engage.veented.com/restaurant/wp-content/themes/engage/img/contact-details-map.png');
+    background-color: rgba(0, 0, 0, 0.01);
+    background-size: cover;
+    margin-right: 10px;
+}
+*/
+
+.section7 .contact-details ul li span a{
+    color: #969696;
+    padding-top: 30px;
+}
+
+.section7 .about-us{
+    float: left;
+    width: 25%;
+    padding-right: 60px;
+}
+
+
+.section7 .about-us p{
+    border-bottom: 1px solid #403d38;
+}
+
+.section7 .useful-links{
+    float: left;
+    width: 25%;
+    padding-right: 60px;
+}
+
+.section7 .opening-hours{
+    float: left;
+    width: 25%;
+    padding-right: 60px;
+}
+
+.section7 .contact-details{
+    float: left;
+    width: 25%;
+    padding-right: 60px;
+}
+
+/* End Of section7 CSS */
+
+/* Start Of Section8 CSS */
+
+.section8{
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-color: #353330;
+    padding-top: 60px;
+}
+
+.section8 p{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #777;
+    padding-top: 20px;
+}
+
+.section8 ul li{
+    display: inline-block;
+    padding-left: 8px;
+    padding-top: 15px;
+}
+
+.section8 ul li i{
+    border-radius: 100%;
+    padding-top: 15px;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    text-align: center;
+    background-color: #484540;
+}
+
+/* End Of section8 CSS */
